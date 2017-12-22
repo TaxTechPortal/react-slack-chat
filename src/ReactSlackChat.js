@@ -560,9 +560,9 @@ export class ReactSlackChat extends Component {
           <div className={styles.chatHeader}>
             <span className={styles.chat__back} onClick={this.goToChannelView}></span>
             <div className={styles.chat__person}>
-              <span className={styles.chat__status}>status</span>
+              <span className={styles.chat__status}>Client Support</span>
               <span className={classNames(styles.chat__online, styles.active)}></span>
-              <span className={styles.chat__name}>{this.activeChannel.name}</span>
+              // <span className={styles.chat__name}>{this.activeChannel.name}</span>
             </div>
             {this.activeChannel.icon
               ? <img src={this.activeChannel.icon} className={styles.channel__header__photo} />
